@@ -211,7 +211,7 @@ query =  """
     SELECT id_ticker, date, time, open, close, high, low, average, volume, business, amount_stock
 FROM price5
 WHERE  
-    (id_ticker = 2952 AND date BETWEEN '2024-02-01' AND '2024-03-31');
+    (id_ticker = 2963 AND date BETWEEN '2024-04-01' AND '2024-04-30')
 """
 # Criar uma instância do DataProcessor
 processor = DataProcessor(db_path, query)
@@ -223,7 +223,7 @@ df_5min = processor.identify_5_min_candles()
 df_5min = processor.calculate_bollinger_bands(df_5min)
 
 # Filtrar apenas o segundo dia para o plot
-df_5min = df_5min[df_5min.index.date == pd.to_datetime('2024-04-07').date()]
+df_5min = df_5min[df_5min.index.date == pd.to_datetime('2024-04-16').date()]
 
 # Plotar o gráfico com Bandas de Bollinger
 plot_candlestick_with_bollinger(df_5min)
