@@ -3,7 +3,7 @@ from sklearn.cluster import KMeans
 from collections import defaultdict
 from sklearn.datasets import load_iris
 from sklearn.model_selection import StratifiedKFold
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, confusion_matrix
 import warnings
 import math
 
@@ -205,21 +205,21 @@ class FuzzyDecisionTree:
     def predict_proba(self, x):
         return self._predict_node(self.root, x, weight=1.0)
 
-    def _predict_node(self, node, x, weight):
-        if node.is_leaf:
+    def _predict_node(self, node, x, weight): #nó atual, amostra classificada, peso acumulado ate este snó
+        if node.is_leaf: #se eh folha retorna as clesses ponderada
             return {c: weight * p for c, p in node.class_distribution.items()}
 
         results = defaultdict(float)
-        value = x[node.feature]
+        value = x[node.feature] # valor feature usada no nó
 
-        for branch, params in node.membership_funcs.items():
+        for branch, params in node.membership_funcs.items(): #percorre os ramos baixa media e alta
             mu = trapezoidal_membership(value, *params)
             
-            # poda Fuzzy de Predição (min_membership_weight)
-            # Só propaga se a pertinência for significativa, poupando processamento
+            # poda Fuzzy de Predição (min_membership_weigth)
+            # Só propaga se a pertinência for significativa
             if mu >= self.min_membership_weight and branch in node.children:
-                child_res = self._predict_node(node.children[branch], x, weight * mu)
-                for c, v in child_res.items():
+                child_res = self._predict_node(node.children[branch], x, weight * mu) #recursivo, indo nó filho e att peso mult.
+                for c, v in child_res.items(): #soma results das classes
                     results[c] += v
 
         return results
@@ -247,18 +247,18 @@ class FuzzyRandomForest:
         self.trees = []
 
     def fit(self, X, y):
-        n = len(X)
-        self.trees = []
+        n = len(X)   #amostras no dataset
+        self.trees = []   # lista de arvores da floresta
         
-        # Calcula quantos dados puxar no Bagging
+        # Calcula quantas amostras cada arvore usar no bagging
         n_samples_bootstrap = int(n * self.max_samples)
         
-        for _ in range(self.n_estimators):
-            # Bootstrapping com controle de max_samples
+        for _ in range(self.n_estimators): #em cada arvore
             indices = np.random.choice(n, n_samples_bootstrap, replace=True)
+            # dataste bootstrap criado
             X_boot = X[indices]
             y_boot = y[indices]
-            weights = np.ones(len(X_boot))
+            weights = np.ones(len(X_boot)) #cada amostra sera mult. por sua pertinencia 
 
             tree = FuzzyDecisionTree(
                 max_depth=self.max_depth,
@@ -268,21 +268,24 @@ class FuzzyRandomForest:
                 min_membership_weight=self.min_membership_weight,
                 n_partitions=self.n_partitions
             )
-            tree.fit(X_boot, y_boot, weights)
+            tree.fit(X_boot, y_boot, weights) # treino arvore
             self.trees.append(tree)
 
     def predict(self, X):
-        predictions = []
+        predictions = [] #classe prevista pra cada amostra
 
-        for x in X:
-            total = defaultdict(float)
+        for x in X: #percorre cada amostra
+            total = defaultdict(float) #soma contribuição das classes vinda da arvore
 
-            for tree in self.trees:
-                probs = tree.predict_proba(x)
-                for c, v in probs.items():
+            for tree in self.trees: # anda por todas arvores da floresta
+                probs = tree.predict_proba(x) #predição FUzzy
+                for c, v in probs.items(): #soma dos votos da classe
                     total[c] += v
-
-            predictions.append(max(total, key=total.get))
+            
+            if not total: # se não tem veredito da arvore
+                predictions.append(0)
+            else:
+                predictions.append(max(total, key=total.get)) # classe com maior peso Vencedora
 
         return np.array(predictions)
 
@@ -298,6 +301,9 @@ if __name__ == "__main__":
     
     train_accuracies = []
     test_accuracies = []
+
+    all_y_test = []
+    all_preds_test = []
 
     for fold, (train_idx, test_idx) in enumerate(skf.split(X, y)):
         X_train, y_train = X[train_idx], y[train_idx]
@@ -327,9 +333,18 @@ if __name__ == "__main__":
         preds_test = model.predict(X_test)
         acc_test = accuracy_score(y_test, preds_test)
         test_accuracies.append(acc_test)
+
+        all_y_test.extend(y_test)
+        all_preds_test.extend(preds_test)
         #prints acuracias treinno e  test
-        print(f"Fold {fold+1} | Acc Treino: {acc_train:.4f} | Acc Teste: {acc_test:.4f}")
+        
+        #print(f"Fold {fold+1} | Acc Treino: {acc_train:.4f} | Acc Teste: {acc_test:.4f}")
 
     # Resultado Final
     print(f"Acurácia Média TREINO: {np.mean(train_accuracies):.4f}")
     print(f"Acurácia Média TESTE:  {np.mean(test_accuracies):.4f}")
+
+    cm = confusion_matrix(all_y_test, all_preds_test)
+
+    print("\nMatriz de Confusão:")
+    print(cm)
