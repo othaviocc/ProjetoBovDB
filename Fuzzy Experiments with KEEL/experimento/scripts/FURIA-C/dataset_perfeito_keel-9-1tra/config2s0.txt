@@ -1,0 +1,7 @@
+algorithm = FURIA
+inputData = "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tst.dat" 
+outputData = "../results/FURIA-C.dataset_perfeito_keel-9-1tra/result2s0.tra" "../results/FURIA-C.dataset_perfeito_keel-9-1tra/result2s0.tst" "../results/FURIA-C.dataset_perfeito_keel-9-1tra/result2s0e0.txt"  
+
+seed = 1343278692
+Number of Optimizations = 2
+Number of folds = 3

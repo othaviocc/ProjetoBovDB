@@ -1,0 +1,9 @@
+00:00:48  ../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-1tra.dat
+00:00:49  ../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-2tra.dat
+00:00:47  ../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tra.dat
+00:00:53  ../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-4tra.dat
+00:00:52  ../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-5tra.dat
+00:00:55  ../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-6tra.dat
+00:00:58  ../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-7tra.dat
+00:00:56  ../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-8tra.dat
+00:01:02  ../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-9tra.dat

@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Classification probs.
+inputData = "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result0.tst" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result1.tst" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result2.tst" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result3.tst" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result4.tst" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result5.tst" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result6.tst" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result7.tst" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result8.tst" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result0.tra" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result1.tra" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result2.tra" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result3.tra" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result4.tra" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result5.tra" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result6.tra" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result7.tra" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result8.tra" 
+outputData = "../results/Vis-Clas-Check/TSTChi-RW-C/result0s0.stat" 
+
+seed = 1355994690
+subAlgorithm = StatCheckCL
+dataformat = keel
+outlabel = CHK
