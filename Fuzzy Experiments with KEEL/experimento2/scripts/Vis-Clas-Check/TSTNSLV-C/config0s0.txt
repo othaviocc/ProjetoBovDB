@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Classification probs.
+inputData = "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result0s0.tst" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result1s0.tst" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result2s0.tst" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result3s0.tst" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result4s0.tst" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result5s0.tst" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result6s0.tst" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result7s0.tst" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result8s0.tst" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result0s0.tra" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result1s0.tra" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result2s0.tra" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result3s0.tra" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result4s0.tra" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result5s0.tra" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result6s0.tra" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result7s0.tra" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result8s0.tra" 
+outputData = "../results/Vis-Clas-Check/TSTNSLV-C/result0s0.stat" 
+
+seed = 1224357370
+subAlgorithm = StatCheckCL
+dataformat = keel
+outlabel = CHK

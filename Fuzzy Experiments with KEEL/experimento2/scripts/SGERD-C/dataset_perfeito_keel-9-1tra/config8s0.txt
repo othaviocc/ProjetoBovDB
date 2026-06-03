@@ -1,0 +1,7 @@
+algorithm = Steady-state Genetic Algorithm for Extracting fuzzy classification Rules from Data
+inputData = "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-9tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-9tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-9tst.dat" 
+outputData = "../results/SGERD-C.dataset_perfeito_keel-9-1tra/result8s0.tra" "../results/SGERD-C.dataset_perfeito_keel-9-1tra/result8s0.tst" "../results/SGERD-C.dataset_perfeito_keel-9-1tra/result8s0e0.txt"  "../results/SGERD-C.dataset_perfeito_keel-9-1tra/result8s0e1.txt"  
+
+seed = 1000844826
+Number of Q rules per class (0 to calculate heuristically) = 0
+Rule evaluation criteria = 2

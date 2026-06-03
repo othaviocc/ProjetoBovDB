@@ -1,0 +1,13 @@
+algorithm = Hider
+inputData = "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-1tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-1tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-1tst.dat" 
+outputData = "../results/Hider-C.dataset_perfeito_keel-9-1tra/result0s0.tra" "../results/Hider-C.dataset_perfeito_keel-9-1tra/result0s0.tst" "../results/Hider-C.dataset_perfeito_keel-9-1tra/result0s0e0.txt"  
+
+seed = 390706926
+populationSize = 100
+nGenerations = 100
+mutationProbability = 0.5
+crossPercent = 80
+extremeMutationProbability = 0.05
+pruneExamplesFactor = 0.05
+penaltyFactor = 1
+errorCoeficient = 0

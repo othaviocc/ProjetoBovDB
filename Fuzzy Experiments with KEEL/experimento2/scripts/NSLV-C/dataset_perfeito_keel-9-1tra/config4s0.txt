@@ -1,0 +1,11 @@
+algorithm = Fuzzy Rule Learning, NSLV Algorithm
+inputData = "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-5tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-5tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-5tst.dat" 
+outputData = "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result4s0.tra" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result4s0.tst" "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result4s0e0.txt"  "../results/NSLV-C.dataset_perfeito_keel-9-1tra/result4s0e1.txt"  
+
+seed = 893439232
+Population Size = 100
+Number of Iterations Allowed without Change = 500
+Binary Mutation Probability = 0.01
+Integer Mutation Probability = 0.01
+Real Mutation Probability = 1.0
+Crossover Probability = 1.0
