@@ -95,9 +95,7 @@ def evaluate(individual):
     )
 
     try:
-        model.fit(X_train, y_train)
-        
-        # --- CORREÇÃO: Fitness com 40% Treino e 60% Validação ---
+        model.fit(X_train, y_train)        
         preds_train = model.predict(X_train)
         preds_val = model.predict(X_val)
         
@@ -161,7 +159,6 @@ def main(n_gen=3000, pop_size=10):
     pop, logbook = algorithms.eaSimple(population, toolbox, cxpb=0.8, mutpb=0.05, ngen=n_gen,
                                        stats=stats, halloffame=hof, verbose=True)
 
-    # --- EXTRAÇÃO DO HISTÓRICO PARA ARQUIVO CSV ---
     gen = logbook.select("gen")
     fit_mins = logbook.select("min")
     fit_avgs = logbook.select("mean")
@@ -191,7 +188,6 @@ def main(n_gen=3000, pop_size=10):
     best_ind = hof[0]
     idx = 0
 
-    # --- CORREÇÃO: Limites de decodificação agora batem com o evaluate (32) ---
     hidden1 = int(decode_binary(best_ind[idx:idx+n_bits_hidden_layer1], 1, 32, n_bits_hidden_layer1))
     idx += n_bits_hidden_layer1
     
