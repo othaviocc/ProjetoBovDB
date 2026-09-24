@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Classification probs.
+inputData = "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result0.tst" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result1.tst" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result2.tst" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result3.tst" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result4.tst" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result5.tst" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result6.tst" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result7.tst" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result8.tst" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result0.tra" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result1.tra" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result2.tra" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result3.tra" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result4.tra" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result5.tra" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result6.tra" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result7.tra" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result8.tra" 
+outputData = "../results/Vis-Clas-Check/TSTFuzzyKNN-C/result0s0.stat" 
+
+seed = 488269753
+subAlgorithm = StatCheckCL
+dataformat = keel
+outlabel = CHK

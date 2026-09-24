@@ -1,0 +1,8 @@
+algorithm = Fuzzy Rule Learning Model by the Chi et al. approach with rule weights
+inputData = "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tst.dat" 
+outputData = "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result2.tra" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result2.tst" "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result2e0.txt"  "../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result2e1.txt"  
+
+Number of Labels = 3
+T-norm for the Computation of the Compatibility Degree = Product
+Rule Weight = Penalized_Certainty_Factor
+Fuzzy Reasoning Method = Winning_Rule

@@ -1,0 +1,8 @@
+algorithm = Fuzzy K Nearest Neighbors Classifier
+inputData = "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-8tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-8tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-8tst.dat" 
+outputData = "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result7.tra" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result7.tst" "../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result7e0.txt"  
+
+K Value = 3
+M = 2.0
+Initialization = CRISP
+k Value (init) = 3

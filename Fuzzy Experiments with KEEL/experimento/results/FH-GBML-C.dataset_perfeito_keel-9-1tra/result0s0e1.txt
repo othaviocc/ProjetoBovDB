@@ -1,0 +1,9 @@
+@Number of rules: 7
+
+1: EMA_3 IS L_0(4) AND SMA_3 IS L_1(2) AND ADXR IS L_0(2) AND Bollinger_Norm IS L_2(5) AND EMA_5 IS D.C. AND SMA_5 IS D.C. AND std_close3 IS D.C. AND std_open3 IS D.C.: 0 with Rule Weight: 0.26029680510231584
+2: EMA_3 IS L_3(5) AND SMA_3 IS D.C. AND ADXR IS L_1(4) AND Bollinger_Norm IS D.C. AND EMA_5 IS D.C. AND SMA_5 IS L_3(5) AND std_close3 IS L_0(2) AND std_open3 IS L_1(5): 1 with Rule Weight: 0.19785259152777365
+3: EMA_3 IS L_1(3) AND SMA_3 IS L_0(4) AND ADXR IS L_1(3) AND Bollinger_Norm IS D.C. AND EMA_5 IS L_0(3) AND SMA_5 IS D.C. AND std_close3 IS D.C. AND std_open3 IS L_1(5): 0 with Rule Weight: 0.22112393986721238
+4: EMA_3 IS L_0(3) AND SMA_3 IS D.C. AND ADXR IS D.C. AND Bollinger_Norm IS L_2(5) AND EMA_5 IS L_1(3) AND SMA_5 IS L_2(5) AND std_close3 IS L_1(2) AND std_open3 IS D.C.: 0 with Rule Weight: 0.08753729340152738
+5: EMA_3 IS L_0(4) AND SMA_3 IS L_0(3) AND ADXR IS L_0(2) AND Bollinger_Norm IS L_1(2) AND EMA_5 IS D.C. AND SMA_5 IS L_0(4) AND std_close3 IS L_3(5) AND std_open3 IS D.C.: 0 with Rule Weight: 0.7535025098183792
+6: EMA_3 IS L_2(4) AND SMA_3 IS D.C. AND ADXR IS D.C. AND Bollinger_Norm IS L_2(5) AND EMA_5 IS L_1(3) AND SMA_5 IS D.C. AND std_close3 IS L_1(3) AND std_open3 IS D.C.: 1 with Rule Weight: 0.0094948675014115
+7: EMA_3 IS D.C. AND SMA_3 IS L_3(5) AND ADXR IS D.C. AND Bollinger_Norm IS L_1(3) AND EMA_5 IS L_1(4) AND SMA_5 IS L_1(5) AND std_close3 IS L_0(3) AND std_open3 IS L_0(3): 1 with Rule Weight: 0.02576059258754097

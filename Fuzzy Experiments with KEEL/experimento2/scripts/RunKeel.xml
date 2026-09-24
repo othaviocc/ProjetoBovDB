@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<execution>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/CORE.jar</executableFile>
+    <scriptFile>./CORE-C/dataset_perfeito_keel-9-1tra/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/CORE.jar</executableFile>
+    <scriptFile>./CORE-C/dataset_perfeito_keel-9-1tra/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/CORE.jar</executableFile>
+    <scriptFile>./CORE-C/dataset_perfeito_keel-9-1tra/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/CORE.jar</executableFile>
+    <scriptFile>./CORE-C/dataset_perfeito_keel-9-1tra/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/CORE.jar</executableFile>
+    <scriptFile>./CORE-C/dataset_perfeito_keel-9-1tra/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/CORE.jar</executableFile>
+    <scriptFile>./CORE-C/dataset_perfeito_keel-9-1tra/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/CORE.jar</executableFile>
+    <scriptFile>./CORE-C/dataset_perfeito_keel-9-1tra/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/CORE.jar</executableFile>
+    <scriptFile>./CORE-C/dataset_perfeito_keel-9-1tra/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/CORE.jar</executableFile>
+    <scriptFile>./CORE-C/dataset_perfeito_keel-9-1tra/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTCORE-C/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Hider.jar</executableFile>
+    <scriptFile>./Hider-C/dataset_perfeito_keel-9-1tra/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Hider.jar</executableFile>
+    <scriptFile>./Hider-C/dataset_perfeito_keel-9-1tra/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Hider.jar</executableFile>
+    <scriptFile>./Hider-C/dataset_perfeito_keel-9-1tra/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Hider.jar</executableFile>
+    <scriptFile>./Hider-C/dataset_perfeito_keel-9-1tra/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Hider.jar</executableFile>
+    <scriptFile>./Hider-C/dataset_perfeito_keel-9-1tra/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Hider.jar</executableFile>
+    <scriptFile>./Hider-C/dataset_perfeito_keel-9-1tra/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Hider.jar</executableFile>
+    <scriptFile>./Hider-C/dataset_perfeito_keel-9-1tra/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Hider.jar</executableFile>
+    <scriptFile>./Hider-C/dataset_perfeito_keel-9-1tra/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Hider.jar</executableFile>
+    <scriptFile>./Hider-C/dataset_perfeito_keel-9-1tra/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTHider-C/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/IVTURS-C.jar</executableFile>
+    <scriptFile>./IVTURS-C/dataset_perfeito_keel-9-1tra/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/IVTURS-C.jar</executableFile>
+    <scriptFile>./IVTURS-C/dataset_perfeito_keel-9-1tra/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/IVTURS-C.jar</executableFile>
+    <scriptFile>./IVTURS-C/dataset_perfeito_keel-9-1tra/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/IVTURS-C.jar</executableFile>
+    <scriptFile>./IVTURS-C/dataset_perfeito_keel-9-1tra/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/IVTURS-C.jar</executableFile>
+    <scriptFile>./IVTURS-C/dataset_perfeito_keel-9-1tra/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/IVTURS-C.jar</executableFile>
+    <scriptFile>./IVTURS-C/dataset_perfeito_keel-9-1tra/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/IVTURS-C.jar</executableFile>
+    <scriptFile>./IVTURS-C/dataset_perfeito_keel-9-1tra/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/IVTURS-C.jar</executableFile>
+    <scriptFile>./IVTURS-C/dataset_perfeito_keel-9-1tra/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/IVTURS-C.jar</executableFile>
+    <scriptFile>./IVTURS-C/dataset_perfeito_keel-9-1tra/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTIVTURS-C/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/nslv_k.jar</executableFile>
+    <scriptFile>./NSLV-C/dataset_perfeito_keel-9-1tra/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/nslv_k.jar</executableFile>
+    <scriptFile>./NSLV-C/dataset_perfeito_keel-9-1tra/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/nslv_k.jar</executableFile>
+    <scriptFile>./NSLV-C/dataset_perfeito_keel-9-1tra/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/nslv_k.jar</executableFile>
+    <scriptFile>./NSLV-C/dataset_perfeito_keel-9-1tra/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/nslv_k.jar</executableFile>
+    <scriptFile>./NSLV-C/dataset_perfeito_keel-9-1tra/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/nslv_k.jar</executableFile>
+    <scriptFile>./NSLV-C/dataset_perfeito_keel-9-1tra/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/nslv_k.jar</executableFile>
+    <scriptFile>./NSLV-C/dataset_perfeito_keel-9-1tra/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/nslv_k.jar</executableFile>
+    <scriptFile>./NSLV-C/dataset_perfeito_keel-9-1tra/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/nslv_k.jar</executableFile>
+    <scriptFile>./NSLV-C/dataset_perfeito_keel-9-1tra/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTNSLV-C/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-SGERD.jar</executableFile>
+    <scriptFile>./SGERD-C/dataset_perfeito_keel-9-1tra/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-SGERD.jar</executableFile>
+    <scriptFile>./SGERD-C/dataset_perfeito_keel-9-1tra/config1s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-SGERD.jar</executableFile>
+    <scriptFile>./SGERD-C/dataset_perfeito_keel-9-1tra/config2s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-SGERD.jar</executableFile>
+    <scriptFile>./SGERD-C/dataset_perfeito_keel-9-1tra/config3s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-SGERD.jar</executableFile>
+    <scriptFile>./SGERD-C/dataset_perfeito_keel-9-1tra/config4s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-SGERD.jar</executableFile>
+    <scriptFile>./SGERD-C/dataset_perfeito_keel-9-1tra/config5s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-SGERD.jar</executableFile>
+    <scriptFile>./SGERD-C/dataset_perfeito_keel-9-1tra/config6s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-SGERD.jar</executableFile>
+    <scriptFile>./SGERD-C/dataset_perfeito_keel-9-1tra/config7s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/Clas-Fuzzy-SGERD.jar</executableFile>
+    <scriptFile>./SGERD-C/dataset_perfeito_keel-9-1tra/config8s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTSGERD-C/config0s0.txt</scriptFile>
+  </sentence>
+</execution>
+

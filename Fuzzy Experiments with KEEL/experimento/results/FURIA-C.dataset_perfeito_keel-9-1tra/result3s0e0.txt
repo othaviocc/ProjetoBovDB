@@ -1,0 +1,19 @@
+FURIA rules:
+===========
+
+(EMA_3 <= 0.45048(-> 0.45049)) => trend=0 (CF = 0.63)
+(EMA_3 >= 0.45049(-> 0.45048)) => trend=1 (CF = 0.61)
+
+
+
+Reglas Buenas
+Inside m_Ruleset
+(EMA_3 <= 0.45048(-> 0.45049)) => trend=0 (CF = 0.63)
+(EMA_3 >= 0.45049(-> 0.45048)) => trend=1 (CF = 0.61)
+
+Number of Rules : 2
+
+
+
+
+REGLAS = 2

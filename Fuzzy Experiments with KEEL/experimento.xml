@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Graph objective="0" IDExperiment="13" typeExperiment="0">
+    <experimentSeed>12345678</experimentSeed>
+    <nameGraph>/home/othavio/experimento.xml</nameGraph>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="12" typeNode="0" xsi:type="data-set">
+        <positionNode positionX="188" positionY="209"/>
+        <Description>
+            <subType>0</subType>
+            <name>dataset_perfeito_keel-9-1tra</name>
+            <path>/data/</path>
+            <jarName>dataset_perfeito_keel-9-1tra.jar</jarName>
+        </Description>
+        <Files>
+            <string xsi:type="java:java.lang.String">dataset_perfeito_keel-9-1tra-9-1tra.dat,dataset_perfeito_keel-9-1tra-9-1tst.dat</string>
+            <string xsi:type="java:java.lang.String">dataset_perfeito_keel-9-1tra-9-2tra.dat,dataset_perfeito_keel-9-1tra-9-2tst.dat</string>
+            <string xsi:type="java:java.lang.String">dataset_perfeito_keel-9-1tra-9-3tra.dat,dataset_perfeito_keel-9-1tra-9-3tst.dat</string>
+            <string xsi:type="java:java.lang.String">dataset_perfeito_keel-9-1tra-9-4tra.dat,dataset_perfeito_keel-9-1tra-9-4tst.dat</string>
+            <string xsi:type="java:java.lang.String">dataset_perfeito_keel-9-1tra-9-5tra.dat,dataset_perfeito_keel-9-1tra-9-5tst.dat</string>
+            <string xsi:type="java:java.lang.String">dataset_perfeito_keel-9-1tra-9-6tra.dat,dataset_perfeito_keel-9-1tra-9-6tst.dat</string>
+            <string xsi:type="java:java.lang.String">dataset_perfeito_keel-9-1tra-9-7tra.dat,dataset_perfeito_keel-9-1tra-9-7tst.dat</string>
+            <string xsi:type="java:java.lang.String">dataset_perfeito_keel-9-1tra-9-8tra.dat,dataset_perfeito_keel-9-1tra-9-8tst.dat</string>
+            <string xsi:type="java:java.lang.String">dataset_perfeito_keel-9-1tra-9-9tra.dat,dataset_perfeito_keel-9-1tra-9-9tst.dat</string>
+        </Files>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="1" typeNode="1" xsi:type="algorithm">
+        <positionNode positionX="336" positionY="38"/>
+        <Description>
+            <subType>5</subType>
+            <name>Fuzzy-FARCHD-C</name>
+            <path>file:/home/othavio/KEEL/dist/./algorithm/methods/</path>
+            <jarName>Clas-Fuzzy-FARCHD.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>FARCHD</AlgorithmType>
+            <numParameters>10</numParameters>
+            <Probabilistic>true</Probabilistic>
+            <numOutputs>2</numOutputs>
+            <numInputs>0</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>Number of Linguistic Values</descriptions>
+            <descriptions>Minimum Support</descriptions>
+            <descriptions>Maximum Confidence</descriptions>
+            <descriptions>Depth of the trees (Depthmax)</descriptions>
+            <descriptions>Parameter K of the prescreening</descriptions>
+            <descriptions>Maximum number of evaluacions</descriptions>
+            <descriptions>Population size</descriptions>
+            <descriptions>Parameter alpha</descriptions>
+            <descriptions>Bits per gen</descriptions>
+            <descriptions>Type of inference</descriptions>
+            <parameterType>integer</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>integer</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">2</string>
+                <string xsi:type="java:java.lang.String">9</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">1</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">1</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">1</string>
+                <string xsi:type="java:java.lang.String">10</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">1</string>
+                <string xsi:type="java:java.lang.String">5</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">1000</string>
+                <string xsi:type="java:java.lang.String">1000000</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">5</string>
+                <string xsi:type="java:java.lang.String">100</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">0.0</string>
+                <string xsi:type="java:java.lang.String">10.0</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">10</string>
+                <string xsi:type="java:java.lang.String">100</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">1</string>
+            </domain>
+            <defaultValue>5</defaultValue>
+            <defaultValue>0.05</defaultValue>
+            <defaultValue>0.8</defaultValue>
+            <defaultValue>3</defaultValue>
+            <defaultValue>2</defaultValue>
+            <defaultValue>15000</defaultValue>
+            <defaultValue>50</defaultValue>
+            <defaultValue>0.15</defaultValue>
+            <defaultValue>30</defaultValue>
+            <defaultValue>1</defaultValue>
+            <value>5</value>
+            <value>0.05</value>
+            <value>0.8</value>
+            <value>3</value>
+            <value>2</value>
+            <value>15000</value>
+            <value>50</value>
+            <value>0.15</value>
+            <value>30</value>
+            <value>1</value>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <trainingOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result0s0.tra</trainingOutputs>
+            <trainingOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result1s0.tra</trainingOutputs>
+            <trainingOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result2s0.tra</trainingOutputs>
+            <trainingOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result3s0.tra</trainingOutputs>
+            <trainingOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result4s0.tra</trainingOutputs>
+            <trainingOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result5s0.tra</trainingOutputs>
+            <trainingOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result6s0.tra</trainingOutputs>
+            <trainingOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result7s0.tra</trainingOutputs>
+            <trainingOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result8s0.tra</trainingOutputs>
+            <testOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result0s0.tst</testOutputs>
+            <testOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result1s0.tst</testOutputs>
+            <testOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result2s0.tst</testOutputs>
+            <testOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result3s0.tst</testOutputs>
+            <testOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result4s0.tst</testOutputs>
+            <testOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result5s0.tst</testOutputs>
+            <testOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result6s0.tst</testOutputs>
+            <testOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result7s0.tst</testOutputs>
+            <testOutputs>../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result8s0.tst</testOutputs>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-1tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-2tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-4tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-5tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-6tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-7tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-8tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-9tra.dat</trainingValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-1tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-2tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-4tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-5tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-6tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-7tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-8tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-9tst.dat</testValues>
+            <configurations>/Fuzzy-FARCHD-C/dataset_perfeito_keel-9-1tra/config0s0.txt</configurations>
+            <configurations>/Fuzzy-FARCHD-C/dataset_perfeito_keel-9-1tra/config1s0.txt</configurations>
+            <configurations>/Fuzzy-FARCHD-C/dataset_perfeito_keel-9-1tra/config2s0.txt</configurations>
+            <configurations>/Fuzzy-FARCHD-C/dataset_perfeito_keel-9-1tra/config3s0.txt</configurations>
+            <configurations>/Fuzzy-FARCHD-C/dataset_perfeito_keel-9-1tra/config4s0.txt</configurations>
+            <configurations>/Fuzzy-FARCHD-C/dataset_perfeito_keel-9-1tra/config5s0.txt</configurations>
+            <configurations>/Fuzzy-FARCHD-C/dataset_perfeito_keel-9-1tra/config6s0.txt</configurations>
+            <configurations>/Fuzzy-FARCHD-C/dataset_perfeito_keel-9-1tra/config7s0.txt</configurations>
+            <configurations>/Fuzzy-FARCHD-C/dataset_perfeito_keel-9-1tra/config8s0.txt</configurations>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result0s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result0s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result1s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result1s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result2s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result2s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result3s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result3s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result4s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result4s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result5s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result5s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result6s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result6s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result7s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result7s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result8s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Fuzzy-FARCHD-C.dataset_perfeito_keel-9-1tra/result8s0e1.txt&quot; </string>
+            </additionalOutputs>
+        </Parameters>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="2" typeNode="1" xsi:type="algorithm">
+        <positionNode positionX="337" positionY="117"/>
+        <Description>
+            <subType>5</subType>
+            <name>FuzzyKNN-C</name>
+            <path>file:/home/othavio/KEEL/dist/./algorithm/methods/</path>
+            <jarName>FuzzyKNN.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>Fuzzy K Nearest Neighbors Classifier</AlgorithmType>
+            <numParameters>4</numParameters>
+            <Probabilistic>false</Probabilistic>
+            <numOutputs>1</numOutputs>
+            <numInputs>0</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>K Value</descriptions>
+            <descriptions>M</descriptions>
+            <descriptions>Initialization</descriptions>
+            <descriptions>k Value (init)</descriptions>
+            <parameterType>integer</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>integer</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">1</string>
+                <string xsi:type="java:java.lang.String">100</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">0.01</string>
+                <string xsi:type="java:java.lang.String">100.0</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">CRISP</string>
+                <string xsi:type="java:java.lang.String">CLASS-MEAN</string>
+                <string xsi:type="java:java.lang.String">KNN</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">1</string>
+                <string xsi:type="java:java.lang.String">100</string>
+            </domain>
+            <defaultValue>3</defaultValue>
+            <defaultValue>2.0</defaultValue>
+            <defaultValue>CRISP</defaultValue>
+            <defaultValue>3</defaultValue>
+            <value>3</value>
+            <value>2.0</value>
+            <value>CRISP</value>
+            <value>3</value>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <trainingOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result0.tra</trainingOutputs>
+            <trainingOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result1.tra</trainingOutputs>
+            <trainingOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result2.tra</trainingOutputs>
+            <trainingOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result3.tra</trainingOutputs>
+            <trainingOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result4.tra</trainingOutputs>
+            <trainingOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result5.tra</trainingOutputs>
+            <trainingOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result6.tra</trainingOutputs>
+            <trainingOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result7.tra</trainingOutputs>
+            <trainingOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result8.tra</trainingOutputs>
+            <testOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result0.tst</testOutputs>
+            <testOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result1.tst</testOutputs>
+            <testOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result2.tst</testOutputs>
+            <testOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result3.tst</testOutputs>
+            <testOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result4.tst</testOutputs>
+            <testOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result5.tst</testOutputs>
+            <testOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result6.tst</testOutputs>
+            <testOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result7.tst</testOutputs>
+            <testOutputs>../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result8.tst</testOutputs>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-1tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-2tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-4tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-5tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-6tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-7tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-8tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-9tra.dat</trainingValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-1tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-2tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-4tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-5tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-6tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-7tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-8tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-9tst.dat</testValues>
+            <configurations>/FuzzyKNN-C/dataset_perfeito_keel-9-1tra/config0.txt</configurations>
+            <configurations>/FuzzyKNN-C/dataset_perfeito_keel-9-1tra/config1.txt</configurations>
+            <configurations>/FuzzyKNN-C/dataset_perfeito_keel-9-1tra/config2.txt</configurations>
+            <configurations>/FuzzyKNN-C/dataset_perfeito_keel-9-1tra/config3.txt</configurations>
+            <configurations>/FuzzyKNN-C/dataset_perfeito_keel-9-1tra/config4.txt</configurations>
+            <configurations>/FuzzyKNN-C/dataset_perfeito_keel-9-1tra/config5.txt</configurations>
+            <configurations>/FuzzyKNN-C/dataset_perfeito_keel-9-1tra/config6.txt</configurations>
+            <configurations>/FuzzyKNN-C/dataset_perfeito_keel-9-1tra/config7.txt</configurations>
+            <configurations>/FuzzyKNN-C/dataset_perfeito_keel-9-1tra/config8.txt</configurations>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result1e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result2e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result3e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result4e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result5e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result6e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result7e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FuzzyKNN-C.dataset_perfeito_keel-9-1tra/result8e0.txt&quot; </string>
+            </additionalOutputs>
+        </Parameters>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="3" typeNode="1" xsi:type="algorithm">
+        <positionNode positionX="338" positionY="195"/>
+        <Description>
+            <subType>5</subType>
+            <name>Chi-RW-C</name>
+            <path>file:/home/othavio/KEEL/dist/./algorithm/methods/</path>
+            <jarName>Chi_RW.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>Fuzzy Rule Learning Model by the Chi et al.
+                approach with rule weights</AlgorithmType>
+            <numParameters>4</numParameters>
+            <Probabilistic>false</Probabilistic>
+            <numOutputs>2</numOutputs>
+            <numInputs>0</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>Number of Labels</descriptions>
+            <descriptions>T-norm for the Computation of the
+                Compatibility Degree</descriptions>
+            <descriptions>Rule Weight</descriptions>
+            <descriptions>Fuzzy Reasoning Method</descriptions>
+            <parameterType>integer</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">2</string>
+                <string xsi:type="java:java.lang.String">13</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">Product</string>
+                <string xsi:type="java:java.lang.String">Minimum</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">No_Weights</string>
+                <string xsi:type="java:java.lang.String">Certainty_Factor</string>
+                <string xsi:type="java:java.lang.String">Average_Penalized_Certainty_Factor</string>
+                <string xsi:type="java:java.lang.String">Penalized_Certainty_Factor</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">Winning_Rule</string>
+                <string xsi:type="java:java.lang.String">Additive_Combination</string>
+            </domain>
+            <defaultValue>3</defaultValue>
+            <defaultValue>Product</defaultValue>
+            <defaultValue>Penalized_Certainty_Factor</defaultValue>
+            <defaultValue>Winning_Rule</defaultValue>
+            <value>3</value>
+            <value>Product</value>
+            <value>Penalized_Certainty_Factor</value>
+            <value>Winning_Rule</value>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <trainingOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result0.tra</trainingOutputs>
+            <trainingOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result1.tra</trainingOutputs>
+            <trainingOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result2.tra</trainingOutputs>
+            <trainingOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result3.tra</trainingOutputs>
+            <trainingOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result4.tra</trainingOutputs>
+            <trainingOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result5.tra</trainingOutputs>
+            <trainingOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result6.tra</trainingOutputs>
+            <trainingOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result7.tra</trainingOutputs>
+            <trainingOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result8.tra</trainingOutputs>
+            <testOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result0.tst</testOutputs>
+            <testOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result1.tst</testOutputs>
+            <testOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result2.tst</testOutputs>
+            <testOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result3.tst</testOutputs>
+            <testOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result4.tst</testOutputs>
+            <testOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result5.tst</testOutputs>
+            <testOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result6.tst</testOutputs>
+            <testOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result7.tst</testOutputs>
+            <testOutputs>../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result8.tst</testOutputs>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-1tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-2tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-4tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-5tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-6tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-7tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-8tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-9tra.dat</trainingValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-1tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-2tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-4tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-5tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-6tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-7tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-8tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-9tst.dat</testValues>
+            <configurations>/Chi-RW-C/dataset_perfeito_keel-9-1tra/config0.txt</configurations>
+            <configurations>/Chi-RW-C/dataset_perfeito_keel-9-1tra/config1.txt</configurations>
+            <configurations>/Chi-RW-C/dataset_perfeito_keel-9-1tra/config2.txt</configurations>
+            <configurations>/Chi-RW-C/dataset_perfeito_keel-9-1tra/config3.txt</configurations>
+            <configurations>/Chi-RW-C/dataset_perfeito_keel-9-1tra/config4.txt</configurations>
+            <configurations>/Chi-RW-C/dataset_perfeito_keel-9-1tra/config5.txt</configurations>
+            <configurations>/Chi-RW-C/dataset_perfeito_keel-9-1tra/config6.txt</configurations>
+            <configurations>/Chi-RW-C/dataset_perfeito_keel-9-1tra/config7.txt</configurations>
+            <configurations>/Chi-RW-C/dataset_perfeito_keel-9-1tra/config8.txt</configurations>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result1e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result1e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result2e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result2e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result3e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result3e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result4e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result4e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result5e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result5e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result6e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result6e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result7e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result7e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result8e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/Chi-RW-C.dataset_perfeito_keel-9-1tra/result8e1.txt&quot; </string>
+            </additionalOutputs>
+        </Parameters>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="4" typeNode="1" xsi:type="algorithm">
+        <positionNode positionX="337" positionY="276"/>
+        <Description>
+            <subType>5</subType>
+            <name>FURIA-C</name>
+            <path>file:/home/othavio/KEEL/dist/./algorithm/methods/</path>
+            <jarName>FURIA-C.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>FURIA</AlgorithmType>
+            <numParameters>2</numParameters>
+            <Probabilistic>true</Probabilistic>
+            <numOutputs>1</numOutputs>
+            <numInputs>0</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>Number of Optimizations</descriptions>
+            <descriptions>Number of folds</descriptions>
+            <parameterType>integer</parameterType>
+            <parameterType>integer</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">1</string>
+                <string xsi:type="java:java.lang.String">10</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">2</string>
+                <string xsi:type="java:java.lang.String">10</string>
+            </domain>
+            <defaultValue>2</defaultValue>
+            <defaultValue>3</defaultValue>
+            <value>2</value>
+            <value>3</value>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <trainingOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result0s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result1s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result2s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result3s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result4s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result5s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result6s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result7s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result8s0.tra</trainingOutputs>
+            <testOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result0s0.tst</testOutputs>
+            <testOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result1s0.tst</testOutputs>
+            <testOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result2s0.tst</testOutputs>
+            <testOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result3s0.tst</testOutputs>
+            <testOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result4s0.tst</testOutputs>
+            <testOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result5s0.tst</testOutputs>
+            <testOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result6s0.tst</testOutputs>
+            <testOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result7s0.tst</testOutputs>
+            <testOutputs>../results/FURIA-C.dataset_perfeito_keel-9-1tra/result8s0.tst</testOutputs>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-1tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-2tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-4tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-5tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-6tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-7tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-8tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-9tra.dat</trainingValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-1tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-2tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-4tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-5tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-6tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-7tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-8tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-9tst.dat</testValues>
+            <configurations>/FURIA-C/dataset_perfeito_keel-9-1tra/config0s0.txt</configurations>
+            <configurations>/FURIA-C/dataset_perfeito_keel-9-1tra/config1s0.txt</configurations>
+            <configurations>/FURIA-C/dataset_perfeito_keel-9-1tra/config2s0.txt</configurations>
+            <configurations>/FURIA-C/dataset_perfeito_keel-9-1tra/config3s0.txt</configurations>
+            <configurations>/FURIA-C/dataset_perfeito_keel-9-1tra/config4s0.txt</configurations>
+            <configurations>/FURIA-C/dataset_perfeito_keel-9-1tra/config5s0.txt</configurations>
+            <configurations>/FURIA-C/dataset_perfeito_keel-9-1tra/config6s0.txt</configurations>
+            <configurations>/FURIA-C/dataset_perfeito_keel-9-1tra/config7s0.txt</configurations>
+            <configurations>/FURIA-C/dataset_perfeito_keel-9-1tra/config8s0.txt</configurations>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FURIA-C.dataset_perfeito_keel-9-1tra/result0s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FURIA-C.dataset_perfeito_keel-9-1tra/result1s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FURIA-C.dataset_perfeito_keel-9-1tra/result2s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FURIA-C.dataset_perfeito_keel-9-1tra/result3s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FURIA-C.dataset_perfeito_keel-9-1tra/result4s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FURIA-C.dataset_perfeito_keel-9-1tra/result5s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FURIA-C.dataset_perfeito_keel-9-1tra/result6s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FURIA-C.dataset_perfeito_keel-9-1tra/result7s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FURIA-C.dataset_perfeito_keel-9-1tra/result8s0e0.txt&quot; </string>
+            </additionalOutputs>
+        </Parameters>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="6" typeNode="7" xsi:type="test">
+        <positionNode positionX="509" positionY="38"/>
+        <Description>
+            <subType>10</subType>
+            <name>Vis-Clas-Check</name>
+            <path>file:/home/othavio/KEEL/dist/./algorithm/tests/</path>
+            <jarName>ClasifTest_Summary.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>Summary of the algorithm, Classification probs.</AlgorithmType>
+            <numParameters>3</numParameters>
+            <Probabilistic>true</Probabilistic>
+            <numOutputs>0</numOutputs>
+            <numInputs>1</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>subAlgorithm</descriptions>
+            <descriptions>dataformat</descriptions>
+            <descriptions>outlabel</descriptions>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">StatCheckCL</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">keel</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">CHK</string>
+            </domain>
+            <defaultValue>StatCheckCL</defaultValue>
+            <defaultValue>keel</defaultValue>
+            <defaultValue>CHK</defaultValue>
+            <value>StatCheckCL</value>
+            <value>keel</value>
+            <value>CHK</value>
+            <hidden>1</hidden>
+            <hidden>1</hidden>
+            <hidden>1</hidden>
+            <trainingOutputs>../results/Vis-Clas-Check/TSTFuzzy-FARCHD-C/result0s0.stat</trainingOutputs>
+            <configurations>/Vis-Clas-Check/TSTFuzzy-FARCHD-C/config0s0.txt</configurations>
+        </Parameters>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="7" typeNode="7" xsi:type="test">
+        <positionNode positionX="510" positionY="114"/>
+        <Description>
+            <subType>10</subType>
+            <name>Vis-Clas-Check</name>
+            <path>file:/home/othavio/KEEL/dist/./algorithm/tests/</path>
+            <jarName>ClasifTest_Summary.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>Summary of the algorithm, Classification probs.</AlgorithmType>
+            <numParameters>3</numParameters>
+            <Probabilistic>true</Probabilistic>
+            <numOutputs>0</numOutputs>
+            <numInputs>1</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>subAlgorithm</descriptions>
+            <descriptions>dataformat</descriptions>
+            <descriptions>outlabel</descriptions>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">StatCheckCL</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">keel</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">CHK</string>
+            </domain>
+            <defaultValue>StatCheckCL</defaultValue>
+            <defaultValue>keel</defaultValue>
+            <defaultValue>CHK</defaultValue>
+            <value>StatCheckCL</value>
+            <value>keel</value>
+            <value>CHK</value>
+            <hidden>1</hidden>
+            <hidden>1</hidden>
+            <hidden>1</hidden>
+            <trainingOutputs>../results/Vis-Clas-Check/TSTFuzzyKNN-C/result0s0.stat</trainingOutputs>
+            <configurations>/Vis-Clas-Check/TSTFuzzyKNN-C/config0s0.txt</configurations>
+        </Parameters>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="8" typeNode="7" xsi:type="test">
+        <positionNode positionX="510" positionY="195"/>
+        <Description>
+            <subType>10</subType>
+            <name>Vis-Clas-Check</name>
+            <path>file:/home/othavio/KEEL/dist/./algorithm/tests/</path>
+            <jarName>ClasifTest_Summary.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>Summary of the algorithm, Classification probs.</AlgorithmType>
+            <numParameters>3</numParameters>
+            <Probabilistic>true</Probabilistic>
+            <numOutputs>0</numOutputs>
+            <numInputs>1</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>subAlgorithm</descriptions>
+            <descriptions>dataformat</descriptions>
+            <descriptions>outlabel</descriptions>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">StatCheckCL</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">keel</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">CHK</string>
+            </domain>
+            <defaultValue>StatCheckCL</defaultValue>
+            <defaultValue>keel</defaultValue>
+            <defaultValue>CHK</defaultValue>
+            <value>StatCheckCL</value>
+            <value>keel</value>
+            <value>CHK</value>
+            <hidden>1</hidden>
+            <hidden>1</hidden>
+            <hidden>1</hidden>
+            <trainingOutputs>../results/Vis-Clas-Check/TSTChi-RW-C/result0s0.stat</trainingOutputs>
+            <configurations>/Vis-Clas-Check/TSTChi-RW-C/config0s0.txt</configurations>
+        </Parameters>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="9" typeNode="7" xsi:type="test">
+        <positionNode positionX="513" positionY="273"/>
+        <Description>
+            <subType>10</subType>
+            <name>Vis-Clas-Check</name>
+            <path>file:/home/othavio/KEEL/dist/./algorithm/tests/</path>
+            <jarName>ClasifTest_Summary.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>Summary of the algorithm, Classification probs.</AlgorithmType>
+            <numParameters>3</numParameters>
+            <Probabilistic>true</Probabilistic>
+            <numOutputs>0</numOutputs>
+            <numInputs>1</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>subAlgorithm</descriptions>
+            <descriptions>dataformat</descriptions>
+            <descriptions>outlabel</descriptions>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">StatCheckCL</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">keel</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">CHK</string>
+            </domain>
+            <defaultValue>StatCheckCL</defaultValue>
+            <defaultValue>keel</defaultValue>
+            <defaultValue>CHK</defaultValue>
+            <value>StatCheckCL</value>
+            <value>keel</value>
+            <value>CHK</value>
+            <hidden>1</hidden>
+            <hidden>1</hidden>
+            <hidden>1</hidden>
+            <trainingOutputs>../results/Vis-Clas-Check/TSTFURIA-C/result0s0.stat</trainingOutputs>
+            <configurations>/Vis-Clas-Check/TSTFURIA-C/config0s0.txt</configurations>
+        </Parameters>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="10" typeNode="7" xsi:type="test">
+        <positionNode positionX="515" positionY="357"/>
+        <Description>
+            <subType>10</subType>
+            <name>Vis-Clas-Check</name>
+            <path>file:/home/othavio/KEEL/dist/./algorithm/tests/</path>
+            <jarName>ClasifTest_Summary.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>Summary of the algorithm, Classification probs.</AlgorithmType>
+            <numParameters>3</numParameters>
+            <Probabilistic>true</Probabilistic>
+            <numOutputs>0</numOutputs>
+            <numInputs>1</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>subAlgorithm</descriptions>
+            <descriptions>dataformat</descriptions>
+            <descriptions>outlabel</descriptions>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">StatCheckCL</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">keel</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">CHK</string>
+            </domain>
+            <defaultValue>StatCheckCL</defaultValue>
+            <defaultValue>keel</defaultValue>
+            <defaultValue>CHK</defaultValue>
+            <value>StatCheckCL</value>
+            <value>keel</value>
+            <value>CHK</value>
+            <hidden>1</hidden>
+            <hidden>1</hidden>
+            <hidden>1</hidden>
+            <trainingOutputs>../results/Vis-Clas-Check/TSTFH-GBML-C/result0s0.stat</trainingOutputs>
+            <configurations>/Vis-Clas-Check/TSTFH-GBML-C/config0s0.txt</configurations>
+        </Parameters>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="5" typeNode="1" xsi:type="algorithm">
+        <positionNode positionX="337" positionY="359"/>
+        <Description>
+            <subType>5</subType>
+            <name>FH-GBML-C</name>
+            <path>file:/home/othavio/KEEL/dist/./algorithm/methods/</path>
+            <jarName>Ishib_Hybrid.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>Hybrid Fuzzy GBML</AlgorithmType>
+            <numParameters>6</numParameters>
+            <Probabilistic>true</Probabilistic>
+            <numOutputs>2</numOutputs>
+            <numInputs>0</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>Number of Fuzzy Rules (0 for 5*n_var)</descriptions>
+            <descriptions>Number of Rule Sets</descriptions>
+            <descriptions>Crossover probability</descriptions>
+            <descriptions>Number of Generations</descriptions>
+            <descriptions>Do not Care Probability</descriptions>
+            <descriptions>Probability for a Michigan Iteration</descriptions>
+            <parameterType>integer</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>real</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">50</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">5</string>
+                <string xsi:type="java:java.lang.String">1000</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">1</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">10</string>
+                <string xsi:type="java:java.lang.String">100000</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">1</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">1</string>
+            </domain>
+            <defaultValue>10</defaultValue>
+            <defaultValue>200</defaultValue>
+            <defaultValue>0.9</defaultValue>
+            <defaultValue>1000</defaultValue>
+            <defaultValue>0.5</defaultValue>
+            <defaultValue>0.5</defaultValue>
+            <value>10</value>
+            <value>200</value>
+            <value>0.9</value>
+            <value>1000</value>
+            <value>0.5</value>
+            <value>0.5</value>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <trainingOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result0s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result1s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result2s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result3s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result4s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result5s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result6s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result7s0.tra</trainingOutputs>
+            <trainingOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result8s0.tra</trainingOutputs>
+            <testOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result0s0.tst</testOutputs>
+            <testOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result1s0.tst</testOutputs>
+            <testOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result2s0.tst</testOutputs>
+            <testOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result3s0.tst</testOutputs>
+            <testOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result4s0.tst</testOutputs>
+            <testOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result5s0.tst</testOutputs>
+            <testOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result6s0.tst</testOutputs>
+            <testOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result7s0.tst</testOutputs>
+            <testOutputs>../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result8s0.tst</testOutputs>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-1tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-2tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-4tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-5tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-6tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-7tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-8tra.dat</trainingValues>
+            <trainingValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-9tra.dat</trainingValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-1tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-2tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-3tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-4tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-5tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-6tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-7tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-8tst.dat</testValues>
+            <testValues>../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-9tst.dat</testValues>
+            <configurations>/FH-GBML-C/dataset_perfeito_keel-9-1tra/config0s0.txt</configurations>
+            <configurations>/FH-GBML-C/dataset_perfeito_keel-9-1tra/config1s0.txt</configurations>
+            <configurations>/FH-GBML-C/dataset_perfeito_keel-9-1tra/config2s0.txt</configurations>
+            <configurations>/FH-GBML-C/dataset_perfeito_keel-9-1tra/config3s0.txt</configurations>
+            <configurations>/FH-GBML-C/dataset_perfeito_keel-9-1tra/config4s0.txt</configurations>
+            <configurations>/FH-GBML-C/dataset_perfeito_keel-9-1tra/config5s0.txt</configurations>
+            <configurations>/FH-GBML-C/dataset_perfeito_keel-9-1tra/config6s0.txt</configurations>
+            <configurations>/FH-GBML-C/dataset_perfeito_keel-9-1tra/config7s0.txt</configurations>
+            <configurations>/FH-GBML-C/dataset_perfeito_keel-9-1tra/config8s0.txt</configurations>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result0s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result0s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result1s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result1s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result2s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result2s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result3s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result3s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result4s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result4s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result5s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result5s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result6s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result6s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result7s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result7s0e1.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result8s0e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result8s0e1.txt&quot; </string>
+            </additionalOutputs>
+        </Parameters>
+    </Node>
+    <Edge>
+        <originNode>0</originNode>
+        <destinyNode>1</destinyNode>
+    </Edge>
+    <Edge>
+        <originNode>1</originNode>
+        <destinyNode>5</destinyNode>
+    </Edge>
+    <Edge>
+        <originNode>0</originNode>
+        <destinyNode>2</destinyNode>
+    </Edge>
+    <Edge>
+        <originNode>2</originNode>
+        <destinyNode>6</destinyNode>
+    </Edge>
+    <Edge>
+        <originNode>0</originNode>
+        <destinyNode>3</destinyNode>
+    </Edge>
+    <Edge>
+        <originNode>3</originNode>
+        <destinyNode>7</destinyNode>
+    </Edge>
+    <Edge>
+        <originNode>0</originNode>
+        <destinyNode>4</destinyNode>
+    </Edge>
+    <Edge>
+        <originNode>4</originNode>
+        <destinyNode>8</destinyNode>
+    </Edge>
+    <Edge>
+        <originNode>0</originNode>
+        <destinyNode>10</destinyNode>
+    </Edge>
+    <Edge>
+        <originNode>10</originNode>
+        <destinyNode>9</destinyNode>
+    </Edge>
+</Graph>

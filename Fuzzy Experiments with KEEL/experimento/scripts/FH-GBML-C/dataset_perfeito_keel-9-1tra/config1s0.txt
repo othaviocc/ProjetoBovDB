@@ -1,0 +1,11 @@
+algorithm = Hybrid Fuzzy GBML
+inputData = "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-2tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-2tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-2tst.dat" 
+outputData = "../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result1s0.tra" "../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result1s0.tst" "../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result1s0e0.txt"  "../results/FH-GBML-C.dataset_perfeito_keel-9-1tra/result1s0e1.txt"  
+
+seed = 893439232
+Number of Fuzzy Rules (0 for 5*n_var) = 10
+Number of Rule Sets = 200
+Crossover probability = 0.9
+Number of Generations = 1000
+Do not Care Probability = 0.5
+Probability for a Michigan Iteration = 0.5

@@ -1,0 +1,17 @@
+Accuracy: 0.5556127703398558
+Accuracy (Training): 0.548760862568394
+Kappa: 0.11088605499739522
+Kappa (Training): 0.09699579010674103
+Unclassified instances: 0
+Unclassified instances (Training): 0
+Model time: 0.0
+Training time: 2.296
+Test time: 0.311
+Confussion Matrix:
+559	427	
+436	520	
+
+Training Confussion Matrix:
+4450	3501	
+3509	4075	
+

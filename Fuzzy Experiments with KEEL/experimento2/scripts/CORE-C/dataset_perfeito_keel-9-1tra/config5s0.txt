@@ -1,0 +1,12 @@
+algorithm = CORE
+inputData = "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-6tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-6tra.dat" "../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-6tst.dat" 
+outputData = "../results/CORE-C.dataset_perfeito_keel-9-1tra/result5s0.tra" "../results/CORE-C.dataset_perfeito_keel-9-1tra/result5s0.tst" "../results/CORE-C.dataset_perfeito_keel-9-1tra/result5s0e0.txt"  
+
+seed = 1286082570
+popSize = 100
+CopopulationSize = 50
+generationLimit = 100
+numberOfCopopulations = 15
+CrossoverRate = 1.0
+ProbMutation = 0.1
+RegenerationProbability = 0.5

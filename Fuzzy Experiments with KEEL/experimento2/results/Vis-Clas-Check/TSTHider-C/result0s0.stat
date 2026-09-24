@@ -1,0 +1,42 @@
+TEST RESULTS
+============
+Classifier= /home/othavioaset_perfeito_keel 
+Fold 0 : CORRECT=0.5844490216271885 N/C=0.0 
+Fold 1 : CORRECT=0.5947476828012359 N/C=0.0 
+Fold 2 : CORRECT=0.57826982492276 N/C=0.0 
+Fold 3 : CORRECT=0.5901132852729145 N/C=0.0 
+Fold 4 : CORRECT=0.6045314109165809 N/C=0.0 
+Fold 5 : CORRECT=0.6153450051493305 N/C=0.0 
+Fold 6 : CORRECT=0.611740473738414 N/C=0.0 
+Fold 7 : CORRECT=0.6004119464469619 N/C=0.0 
+Fold 8 : CORRECT=0.618753219989696 N/C=0.0 
+Global Classification Error + N/C:
+0.4001820143483241 
+stddev Global Classification Error + N/C:
+0.01326969726553844 
+Correctly classified:
+0.5998179856516759 
+Global N/C:
+0.0 
+
+TRAIN RESULTS
+============
+Classifier= /home/othavioaset_perfeito_keel 
+Summary of data, Classifiers: /home/othavioaset_perfeito_keel 
+Fold 0 : CORRECT=0.6115867396202124 N/C=0.0 
+Fold 1 : CORRECT=0.6078532346314773 N/C=0.0 
+Fold 2 : CORRECT=0.597103315094947 N/C=0.0 
+Fold 3 : CORRECT=0.6090119085934986 N/C=0.0 
+Fold 4 : CORRECT=0.6035403926617315 N/C=0.0 
+Fold 5 : CORRECT=0.608818796266495 N/C=0.0 
+Fold 6 : CORRECT=0.6089475378178307 N/C=0.0 
+Fold 7 : CORRECT=0.6117154811715482 N/C=0.0 
+Fold 8 : CORRECT=0.6101313079299691 N/C=0.0 
+Global Classification Error + N/C:
+0.39236569846803226 
+stddev Global Classification Error + N/C:
+0.0043620580063210915 
+Correctly classified:
+0.6076343015319677 
+Global N/C:
+0.0 

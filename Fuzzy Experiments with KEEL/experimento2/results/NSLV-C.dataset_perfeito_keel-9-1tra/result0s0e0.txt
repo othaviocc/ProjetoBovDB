@@ -1,0 +1,169 @@
+Experiment: ../datasets/dataset_perfeito_keel-9-1tra/dataset_perfeito_keel-9-1tra-9-1tra.dat
+===================================================
+
+
+===============
+ Run 
+===============
+Accuracy on training: 0.0
+Number of examples: 15535
+Class 0: 7959
+Class 1: 7576
+Successes: 7833.0
+Errors:  7396.0
+Not classified: 306.0
+	Rule 0: 7833 / 7396
+Successes: 7833.0
+Errors:  7396.0
+Not classified: 306.0
+	Rule 0: 7833 / 7396
+Accuracy on training: 0.504216285806244
+Number of examples: 7702
+Class 0: 126
+Class 1: 7576
+Successes: 8180.0
+Errors:  7248.0
+Not classified: 107.0
+	Rule 0: 6623 / 5962
+	Rule 1: 1557 / 1286
+Successes: 8180.0
+Errors:  7248.0
+Not classified: 107.0
+	Rule 0: 6623 / 5962
+	Rule 1: 1557 / 1286
+Accuracy on training: 0.5265529449629868
+Number of examples: 7355
+Class 0: 1336
+Class 1: 6019
+Successes: 8254.0
+Errors:  7258.0
+Not classified: 23.0
+	Rule 0: 6545 / 5856
+	Rule 1: 1553 / 1285
+	Rule 2: 156 / 117
+Successes: 8254.0
+Errors:  7258.0
+Not classified: 23.0
+	Rule 0: 6545 / 5856
+	Rule 1: 1553 / 1285
+	Rule 2: 156 / 117
+Accuracy on training: 0.5313163823624074
+Number of examples: 7281
+Class 0: 1414
+Class 1: 5867
+Successes: 8266.0
+Errors:  7252.0
+Not classified: 17.0
+	Rule 0: 6545 / 5854
+	Rule 1: 1549 / 1273
+	Rule 2: 156 / 117
+	Rule 3: 16 / 8
+Successes: 8266.0
+Errors:  7252.0
+Not classified: 17.0
+	Rule 0: 6545 / 5854
+	Rule 1: 1549 / 1273
+	Rule 2: 156 / 117
+	Rule 3: 16 / 8
+Accuracy on training: 0.5320888316704216
+Number of examples: 7269
+Class 0: 1398
+Class 1: 5871
+Successes: 8268.0
+Errors:  7250.0
+Not classified: 17.0
+	Rule 0: 6545 / 5852
+	Rule 1: 1549 / 1273
+	Rule 2: 156 / 117
+	Rule 3: 16 / 8
+	Rule 4: 2 / 0
+Successes: 8268.0
+Errors:  7250.0
+Not classified: 17.0
+	Rule 0: 6545 / 5852
+	Rule 1: 1549 / 1273
+	Rule 2: 156 / 117
+	Rule 3: 16 / 8
+	Rule 4: 2 / 0
+Accuracy on training: 0.5322175732217573
+Number of examples: 7267
+Class 0: 1398
+Class 1: 5869
+Successes: 8268.0
+Errors:  7267.0
+Not classified: 0.0
+	Rule 0: 6492 / 5807
+	Rule 1: 1531 / 1263
+	Rule 2: 112 / 85
+	Rule 3: 15 / 8
+	Rule 4: 0 / 0
+	Rule 5: 118 / 104
+Successes: 8268.0
+Errors:  7267.0
+Not classified: 0.0
+	Rule 0: 6496 / 5811
+	Rule 1: 1531 / 1263
+	Rule 2: 15 / 8
+	Rule 3: 226 / 185
+Successes: 8268.0
+Errors:  7267.0
+Not classified: 0.0
+	Rule 0: 6496 / 5811
+	Rule 1: 1531 / 1263
+	Rule 2: 15 / 8
+	Rule 3: 226 / 185
+Successes: 1067.0
+Errors:  875.0
+Not classified: 0.0
+	Rule 0: 829 / 710
+	Rule 1: 204 / 140
+	Rule 2: 1 / 0
+	Rule 3: 33 / 25
+----------------------------------------------------
+Accuracy on training: 0.5322175732217573
+Accuracy on test: 0.5494335736354274
+Number of rules: 4.0
+Variables per rule: 3.75
+Variables used: 0.875
+Time: 33.039
+Iterations: 13671
+Conditions: 15
+----------------------------------------------------
+------------------- RULES -------------------------
+----------------------------------------------------
+IF
+	EMA_3 = { VeryLow Low VeryHigh}
+	Bollinger_Norm = { Medium High VeryHigh}
+	std_close3 = { VeryLow Low Medium High}
+THEN trend IS 0   W 0.5421083047486351
+
+IF
+	EMA_3 = { Medium High VeryHigh}
+	SMA_3 = { Medium High}
+	ADXR = { Low}
+	SMA_5 = { VeryLow Low High VeryHigh}
+	std_close3 = { VeryLow High}
+	std_open3 = { VeryLow Low High VeryHigh}
+THEN trend IS 1   W 0.4802432231001733
+
+IF
+	SMA_3 = { Medium High}
+	Bollinger_Norm = { VeryLow Medium High VeryHigh}
+	SMA_5 = { High VeryHigh}
+	std_close3 = { VeryLow High}
+	std_open3 = { VeryLow Low VeryHigh}
+THEN trend IS 0   W 0.4383492380565369
+
+IF
+	std_close3 = { Medium High VeryHigh}
+THEN trend IS 1   W 0.4988570540914995
+
+	Accuracy on training set is: 0.5322175732217573
+	Accuracy on test set is: 0.5494335736354274
+	Number of rules is: 4.0
+	Variables per rule is: 3.75
+	Variables used is: 0.875
+	Time is: 33.039
+	Iterations is: 13671
+	Conditions is: 15
+

@@ -1,0 +1,163 @@
+othavio@othavio:~/FUZZY_EXPERIMENTO$ python3 Model_RF_XGB.py 
+/home/othavio/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+
+==================================================
+Avaliação do Modelo: Random Forest
+==================================================
+--- Acurácia na Validação Cruzada (9 Folds) ---
+Fold 1: 0.6349
+Fold 2: 0.6369
+Fold 3: 0.6330
+Fold 4: 0.6801
+Fold 5: 0.6447
+Fold 6: 0.6634
+Fold 7: 0.6771
+Fold 8: 0.6183
+Fold 9: 0.6546
+-> Acurácia Média CV: 0.6492 (+/- 0.0199)
+
+--- Métricas no Conjunto de Teste (Dados Inéditos) ---
+Acurácia : 0.6090
+Precision: 0.6088
+F1-Score : 0.6088
+Matriz de Confusão:
+ [[2612 1646]
+ [1602 2446]]
+
+==================================================
+Avaliação do Modelo: XGBoost
+==================================================
+--- Acurácia na Validação Cruzada (9 Folds) ---
+Fold 1: 0.6261
+Fold 2: 0.6340
+Fold 3: 0.6075
+Fold 4: 0.6771
+Fold 5: 0.6389
+Fold 6: 0.6398
+Fold 7: 0.6438
+Fold 8: 0.6271
+Fold 9: 0.6497
+-> Acurácia Média CV: 0.6382 (+/- 0.0180)
+
+--- Métricas no Conjunto de Teste (Dados Inéditos) ---
+Acurácia : 0.6034
+Precision: 0.6031
+F1-Score : 0.6030
+Matriz de Confusão:
+ [[2646 1612]
+ [1682 2366]]
+
+==================================================
+EXPLICABILIDADE: RANDOM FOREST
+==================================================
+--- Importância das Variáveis (Global) ---
+EMA_3             0.380460
+SMA_3             0.210839
+EMA_5             0.106949
+SMA_5             0.086447
+Bollinger_Norm    0.084977
+std_close3        0.058395
+ADXR              0.037443
+std_open3         0.034489
+dtype: float64
+
+--- Regras Lógicas de uma das Árvores (IF/THEN) ---
+|--- SMA_5 <= 0.45
+|   |--- EMA_5 <= 0.45
+|   |   |--- SMA_3 <= 0.44
+|   |   |   |--- SMA_5 <= 0.44
+|   |   |   |   |--- SMA_3 <= 0.43
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- SMA_3 >  0.43
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- SMA_5 >  0.44
+|   |   |   |   |--- EMA_3 <= 0.45
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- EMA_3 >  0.45
+|   |   |   |   |   |--- class: 1.0
+|   |   |--- SMA_3 >  0.44
+|   |   |   |--- std_close3 <= 0.02
+|   |   |   |   |--- SMA_3 <= 0.44
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- SMA_3 >  0.44
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- std_close3 >  0.02
+|   |   |   |   |--- ADXR <= 0.21
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- ADXR >  0.21
+|   |   |   |   |   |--- class: 0.0
+|   |--- EMA_5 >  0.45
+|   |   |--- EMA_3 <= 0.45
+|   |   |   |--- std_open3 <= 0.03
+|   |   |   |   |--- std_open3 <= 0.01
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- std_open3 >  0.01
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |--- std_open3 >  0.03
+|   |   |   |   |--- EMA_5 <= 0.45
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- EMA_5 >  0.45
+|   |   |   |   |   |--- class: 0.0
+|   |   |--- EMA_3 >  0.45
+|   |   |   |--- std_close3 <= 0.01
+|   |   |   |   |--- class: 1.0
+|   |   |   |--- std_close3 >  0.01
+|   |   |   |   |--- EMA_5 <= 0.46
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- EMA_5 >  0.46
+|   |   |   |   |   |--- class: 1.0
+|--- SMA_5 >  0.45
+|   |--- std_close3 <= 0.00
+|   |   |--- ADXR <= 0.41
+|   |   |   |--- SMA_3 <= 0.44
+|   |   |   |   |--- EMA_3 <= 0.45
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- EMA_3 >  0.45
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |--- SMA_3 >  0.44
+|   |   |   |   |--- class: 1.0
+|   |   |--- ADXR >  0.41
+|   |   |   |--- class: 1.0
+|   |--- std_close3 >  0.00
+|   |   |--- Bollinger_Norm <= 0.47
+|   |   |   |--- std_open3 <= 0.04
+|   |   |   |   |--- SMA_5 <= 0.74
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- SMA_5 >  0.74
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |--- std_open3 >  0.04
+|   |   |   |   |--- EMA_3 <= 0.45
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- EMA_3 >  0.45
+|   |   |   |   |   |--- class: 1.0
+|   |   |--- Bollinger_Norm >  0.47
+|   |   |   |--- EMA_5 <= 0.45
+|   |   |   |   |--- std_open3 <= 0.34
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- std_open3 >  0.34
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- EMA_5 >  0.45
+|   |   |   |   |--- SMA_3 <= 0.44
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- SMA_3 >  0.44
+|   |   |   |   |   |--- class: 1.0
+
+
+==================================================
+EXPLICABILIDADE: XGBOOST (com LIME)
+==================================================
+Plotando a importância das variáveis do XGBoost...
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+
+--- Explicando uma previsão específica com LIME ---
+Explicando a amostra de Teste no índice 0:
+Valores reais da amostra:
+{'EMA_3': 0.4958762532521478, 'SMA_3': 0.4872353150510345, 'ADXR': 0.1948839999999999, 'Bollinger_Norm': 0.3976371503918516, 'EMA_5': 0.5035005121443319, 'SMA_5': 0.4976687716251899, 'std_close3': 0.0272864845902284, 'std_open3': 0.0261828175972444}
+
+Regras criadas pelo LIME para esta decisão:
+Regra LIME: SMA_3 > 0.45  --> Peso/Influência na decisão: 0.0863
+Regra LIME: EMA_3 > 0.46  --> Peso/Influência na decisão: 0.0544
+Regra LIME: std_open3 <= 0.03  --> Peso/Influência na decisão: -0.0532
+Regra LIME: Bollinger_Norm <= 0.47  --> Peso/Influência na decisão: -0.0354
+Regra LIME: SMA_5 > 0.46  --> Peso/Influência na decisão: -0.0310
