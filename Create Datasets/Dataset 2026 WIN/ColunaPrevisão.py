@@ -1,0 +1,1 @@
+"Neste arquivo, sera gerada a coluna Trend, a qual indica se o proximo ativo sera de alta ou baixa."
