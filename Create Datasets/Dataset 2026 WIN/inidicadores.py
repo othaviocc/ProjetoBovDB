@@ -2,21 +2,25 @@
 Indicadores a serem utilizados:
 
 SMA 
--parametros:
-EMA
--parametros:
+-parametros: 3,5,7,9,11
+EMA 
+-parametros: 3,5,7,9,11
 ADXR
--parametros:
+-parametros: 14 
 AD_LINE
--parametros:
-Bollinger Bands
--parametros:
-RSI
--parametros:
+-parametros: não tem parametros
+ATR
+-parametros: 
+STDEV
+-parametros:3,5,7,9,11
+Bollinger Bands --AG
+-parametros: fator de desvio e periodos
+RSI --AG
+-parametros: 14
 MACD
--parametros:
+-parametros: 
 OBV
--parametros:
+-parametros: nao tem parametros
 '''
 
 import numpy as np
